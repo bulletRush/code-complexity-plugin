@@ -9,6 +9,7 @@ import com.jetbrains.python.PythonLanguage
 import com.jetbrains.python.psi.PyClass
 import com.jetbrains.python.psi.PyFunction
 
+
 class PythonComplexityInfoProvider(override val language: Language = PythonLanguage.INSTANCE) : ComplexityInfoProvider {
 
     override fun isComplexitySuitableMember(element: PsiElement): Boolean {

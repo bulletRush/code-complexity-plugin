@@ -38,6 +38,7 @@ dependencies {
 
         bundledPlugin("com.intellij.java")
         bundledPlugin("org.jetbrains.kotlin")
+        plugin("org.jetbrains.plugins.go", "253.28294.169")
         plugin("PythonCore", "252.23892.409")
 
         instrumentationTools()
